@@ -73,9 +73,6 @@ a:focus {
         -o-transform: translateX(-106px);
         transform: translateX(-106px);
     }
-    body {
-        /*margin-top: -400px;*/
-    }
 }
 
 @media(min-width:767px) {
@@ -300,19 +297,20 @@ button {
 
 #filters li {
     display: inline-block;
+    margin: 0 5px;
 }
 
 #filters li span {
     display: block;
     padding:5px 20px;       
     text-decoration:none;
-    color:#555;
+    color:#fff;
     cursor: pointer;
+    border: 1px solid #fff;
 }
 
 #filters li span.active {
     background: #81BB9A;
-    color:#fff;
 }
  
 #memberlist .member-entry {
@@ -338,11 +336,6 @@ button {
     background: #81BB9A;
     border: none;
 }
-
-/*#memberlist img #memberlist a{
-    display: inline-block; 
-    opacity: 1;
-}*/
 
 .member-entry img {
     max-width:100%;
@@ -377,6 +370,10 @@ button {
     display:block;
     font-size:9px;
     background-color: #81BB9A;
+}
+
+@media (max-width: 600px) {
+
 }
 
 /* #Clearing */
