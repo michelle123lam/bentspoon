@@ -297,11 +297,12 @@ button {
 
 #filters li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 5px 5px;
 }
 
 #filters li span {
     display: block;
+    width: 165px;
     padding:5px 20px;       
     text-decoration:none;
     color:#fff;
