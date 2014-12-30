@@ -374,7 +374,16 @@ button {
 }
 
 @media (max-width: 600px) {
-
+    #memberlist .member-entry {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width:48%;
+    margin:1%;
+    display:none;
+    float:left;
+    overflow:hidden;
+}
 }
 
 /* #Clearing */
