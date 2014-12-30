@@ -94,8 +94,6 @@ button {
     left: 0px;
     top: 0px;
     height: 100%;
-    /*background: #93748A;*/
-    /*background: #744253;*/
     background: #4C9F70;
     color: #fff;
 }
@@ -417,8 +415,6 @@ button {
   height: 0;
 }*/
 
-
-
 /* CONTACT--------------------------------------------------------------- */
 .contact-section {
     width: 100%;
@@ -442,22 +438,9 @@ button {
     background: rgb(170,170,170);
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
+ul.banner-social-buttons {
+        margin-top: -25px;
+        margin-bottom: 25px;
 }
 
 /* PHOTOS --------------------------------------------------------------- */
@@ -467,7 +450,6 @@ button {
     height: 100%;
     padding-top: 100px;
 }
-
 
 /* FOOTER --------------------------------------------------------------- */
 footer {
