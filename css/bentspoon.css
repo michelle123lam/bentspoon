@@ -439,8 +439,12 @@ button {
 }
 
 ul.banner-social-buttons {
-        margin-top: -25px;
-        margin-bottom: 25px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+ul.banner-social-buttons li {
+    margin-bottom: 10px;
 }
 
 /* PHOTOS --------------------------------------------------------------- */
