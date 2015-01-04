@@ -368,6 +368,11 @@ button {
 #filters li span.active {
     background: #81BB9A;
 }
+
+#filters li span:hover {
+    color: #fff;
+    background: #a6cfb8;
+}
  
 #memberlist .member-entry {
     -webkit-box-sizing: border-box;
