@@ -14,6 +14,7 @@ html {
 
 h1,
 h2 {
+    padding-top: 50px;
     font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -108,6 +109,9 @@ a:focus {
     background-color: #999;
 }
 
+img:hover {
+    opacity: 0.5;
+}
 
 
 /* MENU ---------------------------------------------------------------*/
@@ -122,8 +126,14 @@ a:focus {
     }
 }
 
+.container {
+    margin-left: 8px;
+    margin-right: auto;
+}
+
 @media(min-width:767px) {
     .container {
+        margin-left: auto;
         padding-left: 106px;
     }
 }
@@ -255,9 +265,7 @@ button {
 
 /* PHOTOS --------------------------------------------------------------- */
 .photos-section {
-    display: table;
-    /*width: 100%;
-    height: 100%;*/
+    display: block;
 }
 
 .photos-section figure {
@@ -311,7 +319,7 @@ body {
     display: none;
     text-decoration: none;
     color: #444;
-    
+
 }
 
 .back-to-top i {
