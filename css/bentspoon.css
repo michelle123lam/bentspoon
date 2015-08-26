@@ -216,7 +216,7 @@ button {
     padding: 200px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/bentspoon1.jpg) 
+    background: url(../img/bentspoon1.jpg)
         no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -269,7 +269,7 @@ button {
     margin:0%;
     float:left;
     overflow:hidden;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
 }
 
 #aboutimage2 .aboutimage{
@@ -316,12 +316,12 @@ button {
 }
 
 /* MEMBERS --------------------------------------------------------------- */
-.container { 
+.container {
     position: relative;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
-    transition: all 1s ease;  
+    transition: all 1s ease;
 }
 
 #memberlist .mix{
@@ -358,7 +358,7 @@ button {
 #filters li span {
     display: block;
     width: 170px;
-    padding:5px 20px;       
+    padding:5px 20px;
     text-decoration:none;
     color:#fff;
     cursor: pointer;
@@ -373,7 +373,7 @@ button {
     color: #fff;
     background: #a6cfb8;
 }
- 
+
 #memberlist .member-entry {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -425,7 +425,7 @@ button {
     z-index:500;
     padding:5px 8px;
 }
-        
+
 .member-entry .text-category {
     color: #000;
     display:block;
@@ -486,8 +486,8 @@ button {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 100px;*/
 }
 
 .btn {
