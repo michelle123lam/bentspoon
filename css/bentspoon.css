@@ -335,7 +335,7 @@ button {
 
 .members-section {
     width: 100%;
-    color: #fff;
+    color: #000;
     background-color: rgba(120,120,120,0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -365,12 +365,14 @@ button {
     width: 170px;
     padding:5px 20px;
     text-decoration:none;
-    color:#fff;
+    color:#000;
+    background: #fff;
     cursor: pointer;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 #filters li span.active {
+    color: #fff;
     background: #81BB9A;
 }
 
@@ -393,19 +395,21 @@ button {
 .member-wrapper {
     overflow:hidden;
     position: relative !important;
-    background: #81BB9A;
+    background: #fff;
     cursor:pointer;
 }
 
 /* button features */
 .member-wrapper a {
-    background: #81BB9A;
+    background: #fff;
+    color: #000;
     border: none;
+    font-size: 16px;
 }
 
 .member-entry img {
     max-width:100%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .member-entry .label {
@@ -425,7 +429,7 @@ button {
 
 .member-entry .label-text {
     color:#fff;
-    background-color: #81BB9A;
+    background-color: #fff;
     position: relative;
     z-index:500;
     padding:5px 8px;
@@ -434,8 +438,8 @@ button {
 .member-entry .text-category {
     color: #000;
     display:block;
-    font-size:9px;
-    background-color: #81BB9A;
+    font-size:12px;
+    background-color: #fff;
 }
 
 @media (max-width: 600px) {
