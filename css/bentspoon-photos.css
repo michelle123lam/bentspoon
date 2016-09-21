@@ -1,0 +1,328 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:300;
+    color: #000;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2 {
+    padding-top: 50px;
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h3,
+h4 {
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h5,
+h6,
+
+p {
+    padding-top: 30px;
+    margin: 0 0 25px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+.my-gallery figcaption{
+    display:none;
+}
+
+.my-gallery a {
+    float:left;
+    margin: 0 12px 12px 0;
+}
+
+.my-gallery img {
+  max-height: 150px;
+  margin: 24px auto;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.fa {
+    color: #fff;
+}
+
+.fa-arrow-circle-up {
+    color: #000;
+}
+
+.arrow {
+    margin: 0;
+    height: 100px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.btn-default {
+    border: 0;
+    color: #000;
+    background-color: #eee;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    /*border: 1px solid #000;*/
+    outline: 0;
+    color: #000;
+    background-color: #999;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+
+/* MENU ---------------------------------------------------------------*/
+@media(max-width:767px) {
+    .menu{
+        visibility: hidden;
+        -webkit-transform: translateX(-106px);
+        -moz-transform: translateX(-106px);
+        -ms-transform: translateX(-106px);
+        -o-transform: translateX(-106px);
+        transform: translateX(-106px);
+    }
+}
+
+.container {
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+@media(min-width:767px) {
+    .container {
+        margin-left: auto;
+        padding-left: 106px;
+    }
+}
+
+button {
+    border: none;
+    padding-bottom: 50%;
+    margin: 0;
+    outline: none;
+}
+
+.menu {
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background: #4C9F70;
+    color: #fff;
+}
+
+.menu>nav>ul {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu>nav>ul>li button {
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    display: inline-block;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu>nav>ul>li button p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu button p:after{
+    background-image: url(../img/arrow.svg),none;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    right: -15%;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.menu button p:after {
+    opacity: 0;
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: all 100ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 100ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 100ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.menu button p:hover:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.menu-icon {
+    background-image: url(../img/BentSpoon.png),none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+    padding-bottom: 150px;
+}
+
+/* NAVBAR ---------------------------------------------------------------*/
+@media(min-width:767px) {
+    .nav{
+        visibility: hidden;
+    }
+    .navbar {
+        visibility: hidden;
+    }
+    .navbar-custom a {
+        opacity: 0;
+    }
+    .navbar-custom {
+        -webkit-transform: translateY(-56px);
+        -moz-transform: translateY(-56px);
+        -ms-transform: translateY(-56px);
+        -o-transform: translateY(-56px);
+        transform: translateY(-56px);
+    }
+}
+
+.navbar-custom {
+    font-family: 'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #4C9F70;
+}
+
+.navbar-custom a{
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.nav>li>a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+/* PHOTOS --------------------------------------------------------------- */
+.photos-section {
+    display: block;
+}
+
+.photos-section figure {
+    display: inline;
+}
+
+/* FOOTER --------------------------------------------------------------- */
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/*BACK TO TOP -------------------------------------------------------------*/
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #444;
+
+}
+
+.back-to-top i {
+    font-size: 40px;
+}
+
